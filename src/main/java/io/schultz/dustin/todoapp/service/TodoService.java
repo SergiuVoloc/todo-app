@@ -17,8 +17,7 @@ public class TodoService {
     private TodoRepository todoRepository;
 
     @Inject
-    public TodoService(TodoListConverter todoListConverter,
-                       TodoRepository todoRepository) {
+    public TodoService(TodoListConverter todoListConverter, TodoRepository todoRepository) {
         this.todoListConverter = todoListConverter;
         this.todoRepository = todoRepository;
     }
